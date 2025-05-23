@@ -1,0 +1,70 @@
+.calendario-container {
+    padding: 40px;
+    background: radial-gradient(circle, #e2d0f9, #c2aef0);
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.calendario-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #300a6e;
+    margin-bottom: 30px;
+}
+
+.icon-header {
+    color: #7a37d1;
+}
+
+.calendario-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.calendario-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagem-calendario {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.legenda {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    color: #300a6e;
+}
+
+.legenda h4 {
+    margin-bottom: 6px;
+}
+
+.cor-legenda {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.roxo {
+    background-color: #9b00e8;
+}
+
+.amarelo {
+    background-color: #f4e300;
+}
+
+.verde {
+    background-color: #00cc44;
+}
